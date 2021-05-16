@@ -1,0 +1,47 @@
+test1 = 90;
+test2 = 100;
+
+if (test1 == test2) {
+  print("!!! INVALID");
+} else {
+  print("OK");
+}
+
+print("linked list test");
+x = new LinkedList;
+add(x, 4);
+add(x, 67);
+add(x, 5);
+y = get(x, 2);
+print(y);
+
+print("hashtable test");
+x = new HashTable;
+set(x, 4, 99);
+set(x, 6, 25);
+set(x, 5, 5);
+set(x, 5, 9);
+set(x, 6, 5);
+set(x, 8, 1);
+y = receive(x, 6);
+print(y);
+
+print("if/else test");
+x = 967;
+a = 4;
+if (x > 500) {
+    if (a < 2) {
+        x = x + 1500;
+    }
+} else {
+    x = x - 100;
+}
+
+print("while test");
+x = 25;
+while (x > 20) {
+    x = x - 1;
+}
+print(x);
+
+print("Done all program execution ok");
